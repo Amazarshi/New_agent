@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--no-usage-statistics",
+        "--userDataDir",
+        ".runtime/chrome-devtools-profile"
+      ],
+      "env": {
+        "SystemRoot": "C:\\Windows",
+        "PROGRAMFILES": "C:\\Program Files",
+        "CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS": "1"
+      },
+      "startup_timeout_ms": 60000
+    }
+  }
+}

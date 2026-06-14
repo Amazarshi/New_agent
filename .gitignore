@@ -1,0 +1,15 @@
+.runtime/
+.workspaces/
+.vscode/
+.venv/
+
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+code_agent/.env
+code_agent/.env.*
+!code_agent/.env.example
+tests/.tmp_*

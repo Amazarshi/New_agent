@@ -1,0 +1,8 @@
+# OpenAI 兼容接口客户端，用来调用大模型
+openai>=1.0.0
+
+# 读取 .env 文件中的 LLM_API_KEY、LLM_BASE_URL、LLM_MODEL
+python-dotenv>=1.0.0
+
+# 连接 MCP server，例如 ChromeDevTools/chrome-devtools-mcp
+mcp[cli]>=1.27,<2
