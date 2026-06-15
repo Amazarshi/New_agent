@@ -98,6 +98,12 @@ mcp_servers.json
 cmd /c npx -y chrome-devtools-mcp@latest --no-usage-statistics --userDataDir .runtime/chrome-devtools-profile
 ```
 
+使用 Chrome DevTools MCP 前，请先确认本机已经安装：
+
+- Node.js LTS
+- npm / npx
+- Google Chrome 稳定版或更新版本
+
 第一次使用前，先在当前 Python 环境安装 MCP SDK：
 
 ```powershell
